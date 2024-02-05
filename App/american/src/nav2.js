@@ -1,4 +1,5 @@
 import { CiHeart } from "react-icons/ci";
+import { TbShoppingBag } from "react-icons/tb";
 
 function Bar2() {
   return (
@@ -44,7 +45,8 @@ function Bar2() {
       </div>
 
       <div className="rightNav" style={{ backgroundColor: "white" }}>
-        <CiHeart />
+        <CiHeart style={{ color: "black", fontSize: "40px" }} />
+        <TbShoppingBag style={{ color: "black", fontSize: "40px" }} />
       </div>
     </div>
   );
